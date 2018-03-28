@@ -1,0 +1,236 @@
+body{
+	background: rgba(8,51,94,1);
+	background: -moz-linear-gradient(-45deg, rgba(8,51,94,1) 29%, rgba(231,101,97,1) 93%, rgba(255,107,97,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(29%, rgba(8,51,94,1)), color-stop(93%, rgba(231,101,97,1)), color-stop(100%, rgba(255,107,97,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(8,51,94,1) 29%, rgba(231,101,97,1) 93%, rgba(255,107,97,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(8,51,94,1) 29%, rgba(231,101,97,1) 93%, rgba(255,107,97,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(8,51,94,1) 29%, rgba(231,101,97,1) 93%, rgba(255,107,97,1) 100%);
+	background: linear-gradient(135deg, rgba(8,51,94,1) 29%, rgba(231,101,97,1) 93%, rgba(255,107,97,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#08335e', endColorstr='#ff6b61', GradientType=1 );
+	color: #ffffff;	
+	overflow-x: hidden; 
+}
+
+p{
+	font-size: 16px;
+}
+
+@font-face {
+    font-family: 'playfair_displayregular';
+    src: url('playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('playfairdisplay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+header{
+	width: 100%;
+	height: 140px;
+	top: 0;
+	padding-top: 20px;
+	margin: 0;
+}
+
+.main-container{
+	max-width: 1140px;
+	margin: 0 auto;
+	background-image: url('images/hero-deloitte.png');
+}
+
+.home-slide{
+	position: absolute;
+	top: 170px;
+}
+
+h1{
+	font-size: 32px;
+	margin-bottom: 12px;
+}
+
+h2{
+	font-family: 'playfairdisplay-regular';
+	font-size: 24px;
+}
+
+h3{
+	font-family: 'playfairdisplay-regular';
+	font-size: 44px;
+	margin-top: 120px;
+	margin-bottom: 20px;
+}
+
+h4{
+	font-family: 'playfairdisplay-regular';
+	font-size: 28px;
+	margin-top: 120px;
+	margin-bottom: 20px;
+}
+
+.main-left{
+	height: 520px;
+	background-color: #dedede;
+}
+
+.main-right{
+	padding: 0px 60px
+}
+
+nav ul{
+	margin: 0;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+header li, header a{
+	display: inline-block;
+	text-decoration: none;	
+}
+
+.active{
+	text-decoration: line-through;
+}
+
+.inactive{
+	opacity: 0.5;
+}
+
+.nav-link{
+	font-family: 'playfairdisplay-regular';
+	font-size: 24px;
+	margin-right: 40px;
+	padding: 0;
+}
+
+a{
+	color: #ffffff;
+	font-size: 14px;
+}
+
+a:hover{
+	color: #ffffff;
+}
+
+.icon-nav{
+	font-size: 18px;
+	margin-left: 10px;
+	padding-top: 10px;
+}
+
+
+.recruiter-cta{
+	width: 161px;
+	height: 40px;
+	border: 1px solid #ffffff;
+	border-radius: 22px;
+	text-align: center;
+	line-height: 34px;
+}
+
+.vertical-line{
+	width: 2px;
+	height: 40px;
+	background-color: #ffffff;
+	margin: 0px 48px 10;
+}
+
+.horizontal-line{
+	width: 20px;
+	height: 2px;
+	background-color: #ffffff;
+	margin: 20px 48px;
+}
+
+.vertical-line-project{
+	width: 2px;
+	height: 180px;
+	background-color: #ffffff;
+	margin: 40px auto;
+}
+
+.li-project{
+	font-size: 18px;
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+.h2-subcopy{
+	font-size: 14px;
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+.next-project-tag{
+	font-size: 14px;
+}
+
+
+.li-project:before, .next-project-tag:before{
+	content: "";
+	display: block;
+	height: 2px;
+	width: 40px;
+	background-image: url(../images/li-image.png);
+	background-repeat: no-repeat;
+	left: 0px;
+	top: 0px;
+	float: left;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+
+.hero-deloitte{
+	background-image: url(../images/hero-deloitte.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.clear-both{
+	clear: both;
+}
+
+.next-project{
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 0;
+	height: 277px;
+	width: 940px;
+	display: block;
+    margin: 0 auto;
+    padding: 59px 0 0 40px;
+}
+
+.next-project:hover{
+	text-decoration: none;
+}
+
+.next-project-1{
+	background-image: url(../images/next-project-1.png);
+}
+
+.margin-left{
+	margin-left: 60px;
+} 
+
+.relative{
+	position: relative;
+}
+
+/*Bootstrap styles*/
+
+.row{
+	margin: 0;
+}
+
+.img-project{
+	margin-bottom: 60px;
+}
+
+
+.container{
+	padding: 0;
+}
+
